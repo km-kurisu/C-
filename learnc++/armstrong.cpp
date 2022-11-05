@@ -24,9 +24,9 @@ void armstrong(int low, int high)
         }
          
          if(sum == i)
-    {
-        cout<<i<<" ";
-    }
+         {
+            cout<<i<<" ";
+         }
     }
 }
 
