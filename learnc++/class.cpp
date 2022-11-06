@@ -1,13 +1,32 @@
 #include<iostream>
-#include<stdlib.h>
 
 using namespace std;
 
-class Empty{};
+class Rectangle
+{
+private:
+    int width , height;
+
+public:
+    void setvalues(int,int);
+    int area()
+    {
+        return width*height;
+    }
+};
+
+void Rectangle::setvalues(int x , int y)
+{
+    width = x;
+    height = y;
+}
 
 int main()
 {
-    cout<<sizeof(Empty);
+    Rectangle Rect;
+    Rect.setvalues(3,4);
 
-    return 1;
+    cout<<"Area: "<<Rect.area();
+
+    return 0;
 }
