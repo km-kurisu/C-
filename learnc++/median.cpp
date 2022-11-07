@@ -30,17 +30,30 @@ int main()
     sort_a();
     sort_b();
 
+    cout<<"First array after sorting: "<<endl;
+    for(i = 0;i < n ; i++)
+    {
+        cout<<a[i];
+    }
+
+    cout<<"Second array after Sorting: ";
+    for(i = 0; i < n ; i++)
+    {
+        cout<<b[i];
+    }
+
+
     return 0;
 }
 
 void sort_a()
 {
-    //bubble sort the arrays
+    //bubble sort the first array
     for(i = 0; i < n; i++)
     {
-        for(j = 1 ; j < n ; j++)
+        for(j = 0 ; j < n ; j++)
         {
-            if(a[j]<a[j+1])
+            if(a[j] < a[j + 1])
             {
                 a[j] = m;
                 m = a[j + 1];
@@ -52,10 +65,10 @@ void sort_a()
 
 void sort_b()
 {
-    // bubble sort the arrays
+    // bubble sort the second array
     for (i = 0; i < n; i++)
     {
-        for (j = 1; j < n; j++)
+        for (j = 0 ; j < n; j++)
         {
             if (b[j] < b[j + 1])
             {
@@ -67,7 +80,7 @@ void sort_b()
     }
 }
 
-void median()
+/*void median()
 {
-    
-}
+
+}*/
