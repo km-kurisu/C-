@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-
+//the code is incomplete dont write it down
 int main()
 {
     int n;
