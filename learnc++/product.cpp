@@ -20,6 +20,8 @@ public:
 Product::Product(int id)
 {
     //product 1 dev initialized
+    int i = 1;
+
     cout<<"Enter the Id,Name,Price for product 1:  ";
     cin>>id>>Prod_name>>Prod_price;
 
@@ -36,6 +38,8 @@ Product::Product(int id)
 Product::Product(string name , float price)
 {
     //product 2 user acceptance
+    int i = 2;
+
     cout<<"Enter the Id,Name,Price of the Product 2: ";
     cin>>Prod_id>>name>>price;
 
@@ -50,6 +54,8 @@ Product::Product(string name , float price)
 Product::Product(int pid , string pname , float pprice)
 {
     //product 3 user acceptence
+    int i = 3;
+
     cout<<"Enter the Id,Name,Price of Product 3: ";
     cin>>pid>>pname>>pprice;
 
@@ -63,7 +69,6 @@ Product::Product(int pid , string pname , float pprice)
 
 void Product::display()
 {
-    int i = 0;
         printf("Product %d", i);
         cout<<endl;
         cout<<"Id: "<<Prod_id<<endl;
