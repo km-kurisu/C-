@@ -64,14 +64,11 @@ Product::Product(int pid , string pname , float pprice)
 void Product::display()
 {
     int i = 0;
-    for(i = 0 ; i<= 3 ; i++)
-    {
         printf("Product %d", i);
         cout<<endl;
         cout<<"Id: "<<Prod_id<<endl;
         cout<<"Name: "<<Prod_name<<endl;
         cout<<"Price: "<<Prod_price<<endl;
-    }
 }
 
 int main()
