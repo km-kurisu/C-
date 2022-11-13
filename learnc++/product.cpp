@@ -69,11 +69,12 @@ Product::Product(int pid , string pname , float pprice)
 
 void Product::display()
 {
-        printf("Product %d", i);
-        cout<<endl;
-        cout<<"Id: "<<Prod_id<<endl;
-        cout<<"Name: "<<Prod_name<<endl;
-        cout<<"Price: "<<Prod_price<<endl;
+    int i = 0;
+    printf("Product %d", i);
+    cout<<endl;
+    cout<<"Id: "<<Prod_id<<endl;
+    cout<<"Name: "<<Prod_name<<endl;
+    cout<<"Price: "<<Prod_price<<endl;
 }
 
 int main()
